@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="perpustakaan@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>10.5</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="akmal_10">
+      <ObjectId>33080</ObjectId>
+      <StateNumber>1083</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="akmal_2">
+      <ObjectId>16431</ObjectId>
+      <StateNumber>587</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="akmal_9">
+      <ObjectId>33073</ObjectId>
+      <StateNumber>1066</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="akmalramadhan_4">
+      <ObjectId>16501</ObjectId>
+      <StateNumber>635</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="akmalramadhan_5">
+      <ObjectId>16594</ObjectId>
+      <StateNumber>718</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="akmalramadhan_6">
+      <ObjectId>16656</ObjectId>
+      <StateNumber>741</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="akmalramadhan_6_cs">
+      <ObjectId>16701</ObjectId>
+      <StateNumber>755</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="akmalramadhan_7">
+      <ObjectId>32906</ObjectId>
+      <StateNumber>970</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="akmalramadhan_8">
+      <ObjectId>33020</ObjectId>
+      <StateNumber>1020</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="11" parent="1" name="akmalramadhanarifin_423">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>557</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="12" parent="1" name="akmalramadhanarifin_5">
+      <ObjectId>16521</ObjectId>
+      <StateNumber>667</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="calysta">
+      <ObjectId>33089</ObjectId>
+      <StateNumber>1103</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="14" parent="1" name="hello">
+      <ObjectId>16413</ObjectId>
+      <StateNumber>574</StateNumber>
+      <Owner>user_akmal2</Owner>
+    </database>
+    <database id="15" parent="1" name="pegawai">
+      <ObjectId>16490</ObjectId>
+      <StateNumber>614</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="16" parent="1" name="perpustakaan">
+      <ObjectId>33379</ObjectId>
+      <StateNumber>1357</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1404</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Relations>sequence|table|33424|33426|1
+sequence|table|33451|33453|1
+sequence|table|33466|33468|1
+sequence|table|33494|33496|1
+</Relations>
+    </database>
+    <database id="17" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>554</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="18" parent="1" name="akmal">
+      <ObjectId>33074</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="19" parent="1" name="akmalramadhan">
+      <ObjectId>16500</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="20" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="21" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="22" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="24" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="25" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="26" parent="1" name="sbd_akmal">
+      <ObjectId>16394</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="27" parent="1" name="sbd_group">
+      <ObjectId>16395</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="28" parent="1" name="user_akmal2">
+      <ObjectId>16405</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="29" parent="1" name="user_akmal3">
+      <ObjectId>16406</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="30" parent="16" name="information_schema">
+      <ObjectId>12648</ObjectId>
+      <StateNumber>354</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="31" parent="16" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="32" parent="16" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="33" parent="16" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="34" parent="16" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="35" parent="16" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>352</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1405</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="36" parent="16" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="37" parent="16" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="38" parent="16" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="39" parent="16" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="40" parent="16" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="41" parent="16" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="42" parent="16" name="plpgsql">
+      <ObjectId>12924</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>506</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="43" parent="35" name="book_book_id_seq">
+      <ObjectId>33451</ObjectId>
+      <StateNumber>1378</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="44" parent="35" name="member_member_id_seq">
+      <ObjectId>33466</ObjectId>
+      <StateNumber>1383</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="45" parent="35" name="publisher_publisher_id_seq">
+      <ObjectId>33424</ObjectId>
+      <StateNumber>1380</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="46" parent="35" name="transaction_tx_id_seq">
+      <ObjectId>33494</ObjectId>
+      <StateNumber>1398</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <object-type id="47" parent="35" name="status_denda">
+      <ObjectId>33433</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1370</StateNumber>
+      <SubKind>enum</SubKind>
+      <Labels>Lunas
+Belum Lunas</Labels>
+      <SubCategory>enum</SubCategory>
+    </object-type>
+    <object-type id="48" parent="35" name="status_buku">
+      <ObjectId>33438</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1371</StateNumber>
+      <SubKind>enum</SubKind>
+      <Labels>Tersedia
+Tidak Tersedia</Labels>
+      <SubCategory>enum</SubCategory>
+    </object-type>
+    <object-type id="49" parent="35" name="status_pinjam">
+      <ObjectId>33444</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1372</StateNumber>
+      <SubKind>enum</SubKind>
+      <Labels>On Process
+Completed
+Overdue</Labels>
+      <SubCategory>enum</SubCategory>
+    </object-type>
+    <table id="50" parent="35" name="book">
+      <ObjectId>33453</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1399</StateNumber>
+    </table>
+    <table id="51" parent="35" name="member">
+      <ObjectId>33468</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1398</StateNumber>
+    </table>
+    <table id="52" parent="35" name="publisher">
+      <ObjectId>33426</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1373</StateNumber>
+    </table>
+    <table id="53" parent="35" name="transaction">
+      <ObjectId>33496</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1399</StateNumber>
+    </table>
+    <table id="54" parent="35" name="tx_detail">
+      <ObjectId>33509</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1399</StateNumber>
+    </table>
+    <column id="55" parent="50" name="book_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1373</StateNumber>
+      <DefaultExpression>nextval(&apos;book_book_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="56" parent="50" name="title">
+      <Position>2</Position>
+      <DataType>varchar(300)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1373</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="57" parent="50" name="year">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1373</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="58" parent="50" name="publisher_id">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1373</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="59" parent="50" name="status">
+      <Position>5</Position>
+      <DataType>status_buku|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1373</StateNumber>
+      <TypeId>33438</TypeId>
+    </column>
+    <index id="60" parent="50" name="book_pkey">
+      <ObjectId>33457</ObjectId>
+      <StateNumber>1373</StateNumber>
+      <ColNames>book_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="61" parent="50" name="book_pkey">
+      <ObjectId>33458</ObjectId>
+      <StateNumber>1373</StateNumber>
+      <ColNames>book_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="62" parent="50" name="book_publisher_id_fkey">
+      <ObjectId>33459</ObjectId>
+      <StateNumber>1373</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <RefTableId>33426</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>publisher</RefTableName>
+      <RefKeyName>publisher_pkey</RefKeyName>
+      <RefColNames>publisher_id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="51" name="member_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1381</StateNumber>
+      <DefaultExpression>nextval(&apos;member_member_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="64" parent="51" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1381</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="51" name="email">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1381</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="66" parent="51" name="member_pkey">
+      <ObjectId>33472</ObjectId>
+      <StateNumber>1381</StateNumber>
+      <ColNames>member_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="67" parent="51" name="member_pkey">
+      <ObjectId>33473</ObjectId>
+      <StateNumber>1381</StateNumber>
+      <ColNames>member_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>member_pkey</UnderlyingIndexName>
+    </key>
+    <column id="68" parent="52" name="publisher_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1369</StateNumber>
+      <DefaultExpression>nextval(&apos;publisher_publisher_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="69" parent="52" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1369</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="70" parent="52" name="city">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1369</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="71" parent="52" name="publisher_pkey">
+      <ObjectId>33430</ObjectId>
+      <StateNumber>1369</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="72" parent="52" name="publisher_pkey">
+      <ObjectId>33431</ObjectId>
+      <StateNumber>1369</StateNumber>
+      <ColNames>publisher_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>publisher_pkey</UnderlyingIndexName>
+    </key>
+    <column id="73" parent="53" name="tx_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1398</StateNumber>
+      <DefaultExpression>nextval(&apos;transaction_tx_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="74" parent="53" name="member_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1398</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="75" parent="53" name="date_taken">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>1398</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="76" parent="53" name="date_return">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>1398</StateNumber>
+      <DefaultExpression>(now() + &apos;7 days&apos;::interval)</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="77" parent="53" name="status">
+      <Position>5</Position>
+      <DataType>status_pinjam|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1398</StateNumber>
+      <TypeId>33444</TypeId>
+    </column>
+    <index id="78" parent="53" name="transaction_pkey">
+      <ObjectId>33502</ObjectId>
+      <StateNumber>1398</StateNumber>
+      <ColNames>tx_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="79" parent="53" name="transaction_pkey">
+      <ObjectId>33503</ObjectId>
+      <StateNumber>1398</StateNumber>
+      <ColNames>tx_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>transaction_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="80" parent="53" name="transaction_member_id_fkey">
+      <ObjectId>33504</ObjectId>
+      <StateNumber>1398</StateNumber>
+      <ColNames>member_id</ColNames>
+      <RefTableId>33468</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>member</RefTableName>
+      <RefKeyName>member_pkey</RefKeyName>
+      <RefColNames>member_id</RefColNames>
+    </foreign-key>
+    <column id="81" parent="54" name="tx_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1399</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="82" parent="54" name="book_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1399</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="83" parent="54" name="tx_detail_tx_id_fkey">
+      <ObjectId>33512</ObjectId>
+      <StateNumber>1399</StateNumber>
+      <ColNames>tx_id</ColNames>
+      <RefTableId>33496</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>transaction</RefTableName>
+      <RefKeyName>transaction_pkey</RefKeyName>
+      <RefColNames>tx_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="54" name="tx_detail_book_id_fkey">
+      <ObjectId>33517</ObjectId>
+      <StateNumber>1399</StateNumber>
+      <ColNames>book_id</ColNames>
+      <RefTableId>33453</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book</RefTableName>
+      <RefKeyName>book_pkey</RefKeyName>
+      <RefColNames>book_id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
